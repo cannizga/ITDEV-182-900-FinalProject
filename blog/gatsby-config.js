@@ -1,3 +1,7 @@
+require('dotenv').config({
+    path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Blog`,
@@ -9,14 +13,14 @@ module.exports = {
           address: "1403 W Css Lane"
         }
   },
-  plugins: [
-      `gatsby-plugin-react-helmet`,
-      `gatsby-plugin-image`,
+    plugins: [
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-image`,
           {
               resolve: 'gatsby-source-contentful',
               options: {
                   spaceId: `cm2q9el3kkvp`,
-                  accessToken: `mqGMFbrdDUlYvJemSYaj-Hoh4JMH9Uk36lQYnGrDsX4`,
+                  accessToken: `S5ObXW3tAcy_RKTcAAya4d8J91KJpROah7R5dstFCSw`
               },
           },
           {
@@ -25,7 +29,8 @@ module.exports = {
                 name: `images`,
                 path: `${__dirname}/src/images`,
               }
-          },
+      },
+     `gatsby-transformer-remark`,
      `gatsby-transformer-sharp`,
      `gatsby-plugin-sharp`,
           {
