@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.3",
+    "contentful": "^9.1.10",
+    "gatsby": "^4.7.1",
+    "gatsby-plugin-sharp": "^2.14.4",
+    "gatsby-plugin-styled-components": "^5.8.0",
+    "gatsby-source-contentful": "^4.6.4",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-source-sanity": "^6.0.5",
+    "styled-components": "^5.3.3"
+  }
+}
