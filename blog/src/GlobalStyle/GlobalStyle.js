@@ -10,13 +10,13 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    article,
-    aside,
 }
+ article,
+ aside,
 @media only screen and (max-width: 480px) {
     html {
         font-size: 100%;
     }
 }
 `
-export default GlobalStyle
+export default GlobalStyle;
