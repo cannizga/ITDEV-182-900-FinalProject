@@ -3,14 +3,9 @@
     "",
     "\\blog",
     "\\blog\\src",
-    "\\blog\\src\\components",
-    "\\blog\\src\\GlobalStyle",
-    "\\blog\\src\\images",
-    "\\blog\\src\\pages",
-    "\\blog\\src\\templates",
     "\\blog\\src\\ThemeGray",
     "\\blog\\src\\ThemeGray\\Gray"
   ],
-  "SelectedNode": "\\blog\\src\\components\\layout.js",
+  "SelectedNode": "\\blog\\src\\ThemeGray\\Gray\\Gray.js",
   "PreviewInSolutionExplorer": false
 }
