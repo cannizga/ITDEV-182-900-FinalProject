@@ -9,7 +9,7 @@ module.exports = {
     author: "Giuseppe Cannizzo",
     contact: {
           name: "Giuseppe Cannizzo",
-          company: "Blogs Are Cool",
+          company: "Gamers Unite",
           address: "1403 W Css Lane"
         }
   },

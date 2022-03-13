@@ -11,11 +11,11 @@ const About = ( {data} ) => {
         <Layout>
             <Seo title="About" />
             <h1>About us</h1>
-            <p>{`${company} was started by ${name} in 2022`}</p>
-            <p>{`At ${company} we just make blogs!`}</p>
+            <p>{`${company} was started by ${name} in 2022.`}</p>
+            <p>{`At ${company} we give information about newer video games as well as show the review scores that they got.`}</p>
             <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
                 <StaticImage
-                    src="../images/gatsby-astronaut.png"
+                    src="../images/happy-gamer.jpg"
                     width={300}
                     quality={95}
                     formats={["auto", "webp", "avif"]}
