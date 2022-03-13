@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Epic Blog`,
+    title: `Gamers Paradise`,
     description: `IT-DEV-164 Gatsby Blog`,
     author: "Giuseppe Cannizzo",
     contact: {
@@ -20,8 +20,8 @@ module.exports = {
           {
               resolve: 'gatsby-source-contentful',
               options: {
-                  spaceId: `cm2q9el3kkvp`,
-                  accessToken: `S5ObXW3tAcy_RKTcAAya4d8J91KJpROah7R5dstFCSw`
+                  spaceId: `b33oakfmv6fh`,
+                  accessToken: `SJKTy_JEKqo9uuy3QZ8AmqChvftqVc8Lq46wFZUVMrI`
               },
           },
           {

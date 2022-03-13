@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
   return (
       <ThemeProvider theme={Gray}>
       <GlobalStyle/>
-      <Header siteTitle={data.site.siteMetadata.title || `Title`} />
+          <Header siteTitle={data.site.siteMetadata.title || `Title`} />
       <Content>
         <main>{children}</main>
         <footer

@@ -1,7 +1,8 @@
-import * as React from "react"
+﻿import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import styled from 'styled-components'
+import '../components/Navbar.css'
 
 const Outer = styled.header`
 background: ${props => props.theme.header.backgroundColor};
@@ -26,16 +27,25 @@ text-decoration: none;
 }
 `
 
+const navBar = styled.nav`
+    align: right;
+`
+
 const Header = ({ siteTitle }) => (
-    <Outer>
-        <Inner>
-            <H1>
-                <StyledLink to="/">
-                    {siteTitle}
-                </StyledLink>
-            </H1>
-        </Inner>
-    </Outer>
+    <H1>
+        <a href = "/" class = "pageTitle"> {siteTitle} </a>
+        <ul class="ul1">
+            <li class="nav">
+                <a class = "noDecoration" href="/"> Home </a>
+            </li>
+            <li class="nav">
+                <a class="noDecoration" href="/about"> About </a>
+            </li>
+            <li class="nav">
+                <a class="noDecoration" href="/contact"> Contact </a>
+            </li>
+        </ul>
+    </H1>
 )
 
 Header.propTypes = {

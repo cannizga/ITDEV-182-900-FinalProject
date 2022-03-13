@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\blog",
+    "\\blog\\src",
+    "\\blog\\src\\components",
+    "\\blog\\src\\components\\GlobalStyle",
+    "\\blog\\src\\components\\ThemeGray",
+    "\\blog\\src\\components\\ThemeGray\\Gray",
+    "\\blog\\src\\images",
+    "\\blog\\src\\pages",
+    "\\blog\\src\\templates"
   ],
-  "SelectedNode": "\\fullbench-dll.sln",
+  "SelectedNode": "\\blog\\src\\components\\GlobalStyle\\GlobalStyle.js",
   "PreviewInSolutionExplorer": false
 }

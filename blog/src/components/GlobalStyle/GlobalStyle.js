@@ -12,8 +12,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: hsla(0, 0%, 0%, 0.8);
-    font-family: georgia, serif;
+    color: white;
+    font-family: 'Comic Sans MS', georgia, serif;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
@@ -56,10 +56,18 @@ const GlobalStyle = createGlobalStyle`
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    font-family: 'Comic Sans MS', georgia, serif;
+    text-decoration: none;
+    color: white;
   }
   a:active,
   a:hover {
-    outline-width: 0;
+    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
   }
   abbr[title] {
     border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
