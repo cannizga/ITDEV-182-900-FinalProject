@@ -1,8 +1,9 @@
-import * as React from "react"
+import React, { Fragment } from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { GatsbyImage } from "gatsby-plugin-image"
+import { LinkAlt } from '@styled-icons/boxicons-regular'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -11,9 +12,9 @@ const IndexPage = ({ data }) => (
             {
               data.allContentfulBlogPost.edges.map(edge => (
               <li>
-                <Link to={edge.node.slug} key={edge.node.id} > {edge.node.title} </Link>
-                  <div>
-                      <GatsbyImage
+                <Link to={edge.node.slug} key={edge.node.id} > <LinkAlt size = "25"/> {edge.node.title} </Link>
+                      <div>
+                          <GatsbyImage
                           image={edge.node.heroImage?.gatsbyImageData}
                           alt="test" />
                   </div>

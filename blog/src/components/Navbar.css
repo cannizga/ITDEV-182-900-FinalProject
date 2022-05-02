@@ -8,6 +8,11 @@ body {
     background: #1E1F25;
 }
 
+.Icon {
+    padding-left: 23%;
+    padding-top: .8%;
+}
+
 .pageTitle {
     position: absolute;
     text-align: center;
