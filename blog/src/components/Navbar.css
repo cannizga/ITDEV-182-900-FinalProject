@@ -13,6 +13,10 @@ body {
     padding-top: .8%;
 }
 
+.Container {
+    float: left;
+}
+
 .pageTitle {
     position: absolute;
     text-align: center;
@@ -51,6 +55,7 @@ body {
     height: 22vh;
     margin: auto;
     max-width: 1000px;
+    padding-bottom: 25px;
     justify-content: space-between;
     text-align: center;
     font-family: 'Comic Sans MS';

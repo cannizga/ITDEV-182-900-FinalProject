@@ -6,12 +6,12 @@ import GlobalStyle from './GlobalStyle'
 import { Gray } from './ThemeGray/Gray'
 import styled, { ThemeProvider } from "styled-components"
 import React, { Fragment } from 'react'
-import { Game } from '@styled-icons/crypto'
 
 const Content = styled.div`
 margin: 0 auto;
-max-width: 960px;
-padding: 0 1.0875rem 1.45;
+width: 100%;
+padding: 5px;
+margin: auto;
 padding-top: 10px;
 `
 

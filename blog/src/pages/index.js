@@ -12,12 +12,13 @@ const IndexPage = ({ data }) => (
             {
               data.allContentfulBlogPost.edges.map(edge => (
               <li>
-                <Link to={edge.node.slug} key={edge.node.id} > <LinkAlt size = "25"/> {edge.node.title} </Link>
-                      <div>
-                          <GatsbyImage
-                          image={edge.node.heroImage?.gatsbyImageData}
-                          alt="test" />
+                  <div>
+                      <GatsbyImage
+                      image={edge.node.heroImage?.gatsbyImageData}
+                      alt="test"/>
+                      <Link to={edge.node.slug} key={edge.node.id} > <LinkAlt size="25" /> {edge.node.title} </Link>
                   </div>
+
                   <div>
                       {edge.node.body.childMarkdownRemark.excerpt}
                   </div>
