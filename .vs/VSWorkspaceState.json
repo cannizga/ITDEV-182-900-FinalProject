@@ -4,13 +4,12 @@
     "\\blog",
     "\\blog\\src",
     "\\blog\\src\\components",
-    "\\blog\\src\\components\\GlobalStyle",
     "\\blog\\src\\components\\ThemeGray",
     "\\blog\\src\\components\\ThemeGray\\Gray",
     "\\blog\\src\\images",
     "\\blog\\src\\pages",
     "\\blog\\src\\templates"
   ],
-  "SelectedNode": "\\blog\\gatsby-config.js",
+  "SelectedNode": "\\blog\\src\\components\\ThemeGray\\Gray\\Gray.js",
   "PreviewInSolutionExplorer": false
 }
